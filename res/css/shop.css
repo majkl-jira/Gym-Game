@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    user-select: none;
+}
+body {
+    background: url(../img/shop.webp) no-repeat center center fixed;
+    background-size: 100%;
+}
+
+.maindiv {
+    background-color: white;
+    width: 20%;
+    height: 80%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.maindiv2 {
+    background-color: white;
+    width: 20%;
+    height: 80%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
+}
+
+#protein {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+
+}
+
+#protein :hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#creatin {
+    width: 100%;
+    height: 35%;
+    text-align: center;
+    position: absolute;
+}
+
+#creatin :hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#Test {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+
+}
+
+#Test :hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#Tren {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+}
+
+#Tren :hover {
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+.filip {
+    height: 30%;
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.sign-box {
+    background: url("../img/sign.png");
+    background-size: cover;
+    font-size: 40px;
+    text-align: center;
+    width: 8rem;
+    height: 4rem;
+    position: absolute;
+    left: 90%;
+    top: 60%;
+}
+
+.sign-box>a {
+    text-decoration: none;
+    color: black;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+
+}
+
+.sign-box :hover {
+    font-size: 48px;
+    transition: 0.5s;
+}
+.box{
+    position: absolute;
+    top: 70%;
+    left: 78%;
+
+}
+.box>div{
+    font-size: 40px;
+    color: black;
+}
+#LvlUp{
+    position: absolute;
+    top: 27%;
+    left: 53%;
+}
